@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+body{
+    
+    background-color: rgb(203, 186, 204)
+}
+
+h3{
+    font-size: 40px;
+    color: rgba(9, 124, 86);
+    font-family: 'Fruktur'; 
+    cursor: pointer;
+}
+
+h3:hover{
+    color: rgba(33, 245, 174);
+}
