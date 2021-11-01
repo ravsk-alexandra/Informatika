@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+li, a, button {
+    font-family:'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links li{ 
+    display:inline-block;
+   padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover {
+    color: rgb(146, 125, 229);
+}
+
+button {
+    padding:9px 25px;
+    background-color: rgb(146, 125, 229, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+
+button:hover{
+    background-color: rgb(146, 125, 229,0.8);  
+}
+
+.banner{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.left-col{
+    flex-basis: 60%;
+    position: relative;
+    margin-left: 300px;
+
+}
+
+.left-col h1{
+    font-family:'Noto Sans', sans-serif;
+    font-size: 60px;
+}
+
+.left-col h3{
+    font-family:'Noto Sans', sans-serif;
+    font-size: 44px;
+    color: rgb(146, 125, 229);
+    font-weight: 100;
+    margin:20px 0 50px;
+}
+
+.left-col::after{
+    content: '';
+    width: 10px;
+    height: 140px;
+    background-color: rgb(146, 125, 229);
+    position: absolute;
+    left: -40px;
+    top:8px
+}
+
+.right-col{
+    position: relative;
+    flex-basis: 40%;
+    display: flex;
+    align-items:baseline
+}
+
+.right-col .cat{
+    width: 600px;
+}
+
+
+.content h1{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 200;
+    background-color: rgb(0, 0, 0);
+    font-family:'Noto Sans', sans-serif;
+    margin:center;
+    text-align: center;
+}
+
+.content p{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 100;
+    background-color: rgb(0, 0, 0);
+    font-family:'Noto Sans', sans-serif;
+    margin:center;
+    text-align: center;
+    }
+
+    .kitty{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(146, 125, 229);
+    
+    }
+
+   .rounded-corners{
+       border-radius: 40px;
+       width: 600px;
+       height: 800px;
+       padding:10px;
+       margin: 20px;
+       background-color: rgb(146, 125, 229);
+       cursor: pointer;
+       transform:scale(0.9);
+       transition: 0.5s linear;
+   }
+
+   .rounded-corners:hover{
+    transform:translate(+1%, +1%) scale(1);
+   }
+
+
+   .info{
+       height: 150px;
+       width: auto;
+       background: rgb(0, 0, 0);
+       
+   }
+
+   .info h1{
+    display: flex;
+    background: rgb(0, 0, 0);  
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 200;
+    font-family:'Noto Sans', sans-serif;
+    margin-left: 20px;
+    padding-bottom: 20px;
+   }
+
+   .gallery{
+    height: 50px;
+    width: auto;
+    background: rgb(0, 0, 0);  
+    margin-left: 20px;
+   }
+
+.gallery2{
+    background: black;
+    
+    
+}
+
+
+       
+
+    
+        
+        
+
+     
+
+
+
+ 
